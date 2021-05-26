@@ -18,22 +18,36 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
+    align-items: center;
+}
+
+.content{
+    background:  hsl(244, 38%, 16%);
+    color: rgb(255, 255, 255);
+    width:30%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 2em;
+}
+.content>h1{
+    font-family: 'Inter', sans-serif;
+   font-size: 42px;
 }
 h1{
     font-family: 'Inter', sans-serif;
+  
 }
 p{
     font-family: 'Lexend Deca', sans-serif;
 }
-.content{
-    background:  hsl(244, 38%, 16%);
-    color: rgb(255, 255, 255);
-    width:40%;
-    height: 50%;
-    justify-content: center;
-    align-items: center
+
+.sta{
+    display: flex;
+    justify-content: space-between;  
 }
+
 .image{
     width: 30%;
     height: 50%;  
