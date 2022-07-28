@@ -1,0 +1,16 @@
+.sta{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content:center;
+
+}
+
+.item {
+  margin-top:  2rem;
+ 
+}
+
+.item p {
+  color:  hsla(0, 0%, 100%, 0.6);
+}
