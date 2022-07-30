@@ -1,13 +1,14 @@
 .sta{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   justify-content:center;
 
 }
 
 .item {
   margin-top:  2rem;
+  text-align: left;
  
 }
 
